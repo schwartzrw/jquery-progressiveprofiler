@@ -1,0 +1,39 @@
+{
+    "name": "ProgressiveProfiler",
+    "title": "ProgressiveProfiler",
+    "description": "Automatically saves all form fields into cookies, and then determines which field groups to show based off of previous submissions.",
+    "keywords": [
+		"progressive",
+        "profiling",
+		"form"
+    ],
+    "version": "1.0.1",
+    "author": {
+        "name": "RWSApps",
+        "url": "http://jquery.rwsapps.com/ProgressiveProfiler"
+    },
+    "maintainers": [
+        {
+            "name": "Ryan Schwartz",
+            "email": "contact@rwsapps.com",
+            "url": "http://jquery.rwsapps.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/schwartzrw/jquery-progressiveprofiler/blob/master/RWSApps%20MIT.rtf"
+        },
+        {
+            "type": "GNU",
+            "url": "https://github.com/schwartzrw/jquery-progressiveprofiler/blob/master/RWSApps%20GNU.rtf"
+        }
+    ],
+    "bugs": "https://github.com/schwartzrw/jquery-progressiveprofiler/issues",
+    "homepage": "http://jquery.rwsapps.com/ProgressiveProfiler",
+    "docs": "http://jquery.rwsapps.com/ProgressiveProfiler/documentation",
+    "download": "https://github.com/schwartzrw/jquery-progressiveprofiler",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
