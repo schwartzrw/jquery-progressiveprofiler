@@ -21,7 +21,7 @@
 					'debug'			: 'false', // [true/false] Enable debugging
 					'groupReferenceIndicator' : '', // [string] The #id or .class of the base group reference indicator.  e.g. .progressive_profiler_ (so each group in the HTML has a class of progressive_profiler_0, progressive_profiler_1, etc.)
 					'elementFieldGroups'	: '', // Nested array of element groups with group id and element ids. e.g. [['company','title'], ['gender','hobbies'], ['subscription_status']]
-					'cookieLifetime': '60', // [integer] number of days of cookie lifetime
+					'cookieLifetime': '60' // [integer] number of days of cookie lifetime
 				};
 
 				// Check for options
