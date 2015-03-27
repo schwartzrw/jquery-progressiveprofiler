@@ -1,7 +1,7 @@
 /*
  * jQuery ProgressiveProfiler Plugin
  * Author: Ryan Schwartz
- * Version: 1.0.1 (17-MAR-2015)
+ * Version: 1.1 (27-MAR-2015)
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -88,6 +88,11 @@
 						var setVal = $(e).val();
 					}else if(e.type == "checkbox" || e.type == "radio"){
 						var setVal = e.checked;
+					}
+					
+					// Skip if value is blank
+					if(setVal == ""){
+						continue;
 					}
 					
 					// Alert if debugging
