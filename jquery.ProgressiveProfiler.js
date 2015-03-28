@@ -1,7 +1,7 @@
 /*
  * jQuery ProgressiveProfiler Plugin
  * Author: Ryan Schwartz
- * Version: 1.0.3 (27-MAR-2015)
+ * Version: 1.0.4 (27-MAR-2015)
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -21,7 +21,7 @@
 					'debug'			: 'false', // [true/false] Enable debugging
 					'groupReferenceIndicator' : '', // [string] The #id or .class of the base group reference indicator.  e.g. .progressive_profiler_ (so each group in the HTML has a class of progressive_profiler_0, progressive_profiler_1, etc.)
 					'elementFieldGroups'	: '', // Nested array of element groups with group id and element ids. e.g. [['company','title'], ['gender','hobbies'], ['subscription_status']]
-					'cookieLifetime': '60', // [integer] number of days of cookie lifetime
+					'cookieLifetime': '60' // [integer] number of days of cookie lifetime
 				};
 
 				// Check for options
