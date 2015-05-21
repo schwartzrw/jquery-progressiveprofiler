@@ -1,7 +1,7 @@
 /*
  * jQuery ProgressiveProfiler Plugin
  * Author: Ryan Schwartz
- * Version: 1.0.4 (27-MAR-2015)
+ * Version: 1.0.5 (21-MAY-2015)
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -70,7 +70,11 @@
 				}
 				
 				var shown_group = $(this).data('pp_shown_group');
-				
+
+				// Check if shown group is false
+				if(shown_group === false){
+					return this;
+				}				
 					
 				// Loop through form elements for group
 				for(var i = 0; i < settings.elementFieldGroups[shown_group].length; i++){
